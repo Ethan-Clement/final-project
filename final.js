@@ -53,6 +53,6 @@ let bdiv = $(padiv).children()[0]
 let varval = $(bdiv).val()
 let pardiv = $(this).parents()[1]
 let cdiv = $(pardiv).children()[2]
-$(cdiv).text($(varval))
+$(cdiv).text(varval)
 })
 //$(this) to select what is clicked on, delete .remove()
